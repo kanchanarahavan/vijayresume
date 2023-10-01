@@ -1,0 +1,295 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.contanier{
+  border: 2 px solid black;
+ display: flex;
+
+}
+
+
+.leftbox {
+    background-color: rgb(23, 2, 2);
+    width: 350px;
+    padding: 50px;
+}
+
+.rightbox{
+
+   width: 100%; 
+   text-align: center;
+   margin-top: -50px;
+   border-top: 2px solid black;
+   background-color: rgb(249, 208, 208);
+  
+  
+    
+}
+.photo-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 100px;
+
+}
+
+.name-con{ border: 2px solid black;
+    margin-top: 50px;
+    
+    
+}
+
+.name-con > h2{
+    
+    font-family: 'Skranji', cursive;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-left: 20px;
+    
+    
+    
+}
+.name-con > h4{
+    font-family: 'Inter', sans-serif;
+font-family: 'Skranji', cursive;
+    font-size: 20px;
+    padding-left: 25px;
+
+}
+
+.contact-left-side{
+   /* border: 1px solid black;*/
+    color: white;
+    margin-top:30px;
+
+}
+.contact-left-side>h4{
+
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 5px solid white;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Croissant One', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Skranji', cursive;
+     text-align: center;
+}
+.contact-sup-con{
+    /*border: 1px solid white;*/
+    font-family: 'Croissant One', cursive;
+    display: flex;
+    margin-top: 10px;
+
+}
+.contact-sup-con>.icon-con{
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px; 
+}
+.contact-sup-con>.text-con>h4{
+    margin-bottom: 10px;
+     font-size: 15px;
+     text-transform: uppercase;
+    
+}
+.contact-sup-con>.text-con>p{
+
+    font-size: 12px;
+}
+.education-sub{
+    /* border: 1px solid black;*/
+    color: white;
+    margin-top:30px;
+    
+    
+}
+    .education-sub>.education-name{
+        font-family: 'Croissant One', cursive;
+        margin-top: 10px;
+        background-color: azure;
+        color: black;
+        
+
+    }
+        
+    .education-sub>.education-address{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .profile-right{
+
+        font-family: 'Croissant One', cursive;
+        
+        border-top: 2px solid black;
+        text-align: center;
+    
+        }
+        .profile-right>.profile>h3{
+            
+             border: 2px solid black;
+             background-color: gray
+        }
+
+        .profile-right>.profile>p{
+            font-family: 'Croissant One', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Skranji', cursive;
+            font-size: small;
+
+            margin: 20px;
+        }
+        .profile-right>.core>h3{
+            margin-top: 20px;
+            border: 1px solid black;
+            background-color: gray;
+
+        }
+    
+     .profile-right>.core>.right-list{
+        margin-top: 20px;
+        text-align: left;
+        list-style-position: inside;
+    
+        color: black;
+        margin-left: 100px;
+        list-style: none;
+        font-size: medium;
+                  
+     }
+     .profile-right>.core>.left-list{
+        margin-top: -140px;
+        margin-left: 300px;
+       /* border: 1px solid white;*/
+        list-style-position: inside;
+        list-style: none;
+        font-size: medium; 
+     }
+      .profile-right>.core{
+        margin-bottom: 20px;
+      }
+        
+      
+       .rightbox>.xperiance-content>h2{
+        font-family: 'Croissant One', cursive;
+        border: 3px solid black;
+        background: gray;
+       }
+
+       .rightbox>.xperiance-content>.restaurant-name{
+
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 50px;
+        font-family: 'Croissant One', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Skranji', cursive;
+       }
+
+       .rightbox>.xperiance-content>.res-position{
+
+        text-align: left;
+        margin-top: 5px;
+        margin-left:150px;  
+        font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Skranji', cursive;
+          
+        
+       }
+       .rightbox>.xperiance-content>.restaurannt-address{
+
+        text-align: left;
+        margin-left: 150px;
+         font-size: small;
+         text-transform:capitalize;font-family: 'Inter', sans-serif;
+         font-family: 'Open Sans', sans-serif;
+         font-family: 'Oswald', sans-serif;
+         font-family: 'Raleway', sans-serif;
+         font-family: 'Skranji', cursive;
+         
+       }
+       .rightbox>.xperiance-content>.experiance-year>p{
+
+        text-align: right;
+        text-transform:capitalize;font-family: 'Inter', sans-serif;
+         font-family: 'Open Sans', sans-serif;
+         font-family: 'Oswald', sans-serif;
+         font-family: 'Raleway', sans-serif;
+         font-family: 'Skranji', cursive;   
+    margin-right: 100px;
+    
+       }
+       .rightbox>h3{
+        background-color: gray;
+        margin-bottom: 10px;
+        text-transform:capitalize;font-family: 'Inter', sans-serif;
+         font-family: 'Open Sans', sans-serif;
+         font-family: 'Oswald', sans-serif;
+         font-family: 'Raleway', sans-serif;
+         font-family: 'Skranji', cursive;
+        
+       }
+       .rightbox>p{
+
+        text-transform:capitalize;font-family: 'Inter', sans-serif;
+         font-family: 'Open Sans', sans-serif;
+         font-family: 'Oswald', sans-serif;
+         font-family: 'Raleway', sans-serif;
+         font-family: 'Skranji', cursive;
+         border-bottom: 2px solid black;
+       }
+
+       .rightbox>h1{
+
+        margin-top: 50px;
+       }
+
+       .personal{
+       color: white;
+       }
+
+       .personal>h3{
+
+        font-family: 'Open Sans', sans-serif;
+         font-family: 'Oswald', sans-serif;
+         font-family: 'Raleway', sans-serif;
+         font-family: 'Skranji', cursive;
+          text-transform: uppercase;
+          margin-top: 20px;
+          padding-bottom: 10px;
+    border-bottom: 5px solid white;
+    text-align: center;
+       }
+
+
+       .personal>.heading>h4{
+        font-family: 'Open Sans', sans-serif;
+         font-family: 'Oswald', sans-serif;
+         font-family: 'Raleway', sans-serif;
+         font-family: 'Skranji', cursive;
+         text-align: center;
+          margin-top:20px;
+          border: solid white;
+
+
+       }
+       .personal>.details>p{
+        margin-top: 10px;
+        text-align: center;
+       }
+
+
+
+       
+
+
+         
+
